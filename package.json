@@ -1,0 +1,23 @@
+{
+  "name": "redux-browser-status",
+  "version": "1.0.0",
+  "description": "A simple store enhancer to check if your internet connection is online or offline",
+  "main": "index.cjs.js",
+  "scripts": {
+    "build": "BABEL_ENV=production babel index.js --out-file index.cjs.js"
+  },
+  "keywords": [
+    "redux",
+    "online",
+    "offline"
+  ],
+  "author": "Vinay M <vinay@olasearch.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "peerDependencies": {
+    "redux": "^3.7.2"
+  }
+}
